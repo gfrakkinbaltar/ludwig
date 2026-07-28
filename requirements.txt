@@ -66,4 +66,4 @@ html5lib            # html
 datasets
 
 # pin required for torch 2.1.0
-urllib3<2
+urllib3<3
