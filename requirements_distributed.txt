@@ -3,7 +3,7 @@ dask[dataframe]<2023.4.0
 pyarrow
 
 # requirements for ray
-ray[default,data,serve,tune]==2.3.1
+ray[default,data,serve,tune]==2.56.0
 tensorboardX<2.3
 GPUtil
 tblib
@@ -11,7 +11,7 @@ awscli
 
 # https://github.com/microsoft/DeepSpeed/issues/4473
 # https://github.com/ludwig-ai/ludwig/issues/3905
-deepspeed!=0.11.0,<0.13.0
+deepspeed!=0.11.0,<0.20.0
 
 # requirements for daft
 getdaft[ray]==0.1.20
